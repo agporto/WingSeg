@@ -1,6 +1,9 @@
-# Extract wing ROI CLI Tool
+# Wing Segmentation Tool
 
-***This is not meant as a general tool. It is just a demonstration of image processing techniques for segmentation**
+**This is not meant as a general tool. It is just a demonstration of image processing techniques for segmentation**
+
+<p align="center"><img src="https://github.com/agporto/WingSeg/blob/master/images/demo.JPG" width="800"></p>
+
 
 This CLI tool is designed to extract butterlfly wing ROIs from images in a folder and save them in another folder. The tool uses the extract_roi function to perform the image processing.
 
@@ -35,8 +38,9 @@ Where:
 - padding (optional): The padding value to be used around the ROI when extracting it from the image. Default value is 10.
 - flip (optional): A flag indicating if the ROIs from the right side of the animal should be flipped. Default value is False.
 
-Output
-The tool will extract ROIs from the images in the input folder and save them as .jpg files in the output folder. The names of the saved files will include the name of the original image, the position of the ROI in the image (upper left wing, upper right wing, lower left wing, or lower right wing), and a unique count.
+Output:
+
+ - The tool will extract ROIs from the images in the input folder and save them as .jpg files in the output folder. The names of the saved files will include the name of the original image, the position of the ROI in the image (upper left wing, upper right wing, lower left wing, or lower right wing), and a unique count.
 
 Example output file names:
 ```
