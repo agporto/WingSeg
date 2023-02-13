@@ -29,7 +29,7 @@ pip install -r requirements.txt
 The tool can be used from the command line by running the following command:
 
 ```
-python extract_roi_cli.py -i <input_folder> -o <output_folder> [--padding <padding>] [--flip]
+python wing_segmentation.py -i <input_folder> -o <output_folder> [--padding <padding>] [--flip]
 ```
 Where:
 
