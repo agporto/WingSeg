@@ -5,7 +5,7 @@
 <p align="center"><img src="https://github.com/agporto/WingSeg/blob/master/images/demo.JPG" width="800"></p>
 
 
-This CLI tool is designed to extract butterlfly wing ROIs from images in a folder and save them in another folder. The tool uses the extract_roi function to perform the image processing.
+This CLI tool is designed to extract butterlfly wing ROIs from images in a folder and save them in another folder.
 
 ## Install 
 
