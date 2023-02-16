@@ -29,7 +29,7 @@ pip install -r requirements.txt
 The tool can be used from the command line by running the following command:
 
 ```
-python wing_segmentation.py -i <input_folder> -o <output_folder> [--padding <padding>] [--flip]
+python wing_segmentation.py -i <input_folder> -o <output_folder> [--padding <padding>] [--flip] [--skip]
 ```
 Where:
 
@@ -37,6 +37,7 @@ Where:
 - output_folder: The path to the folder where the extracted ROIs will be saved. If the folder does not exist, it will be created.
 - padding (optional): The padding value to be used around the ROI when extracting it from the image. Default value is 10.
 - flip (optional): A flag indicating if the ROIs from the right side of the animal should be flipped. Default value is False.
+- skip (optional): A flag indicating if the tool should skip the image if it has already been processed. Default value is False.
 
 Output:
 
